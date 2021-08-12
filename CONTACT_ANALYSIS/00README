@@ -1,0 +1,47 @@
+Roadmap
+
+
+* main.sh : master script
+ calls all the other shell scripts, in the order described here.
+
+---
+* source compute_contacts.sh
+    - What it does: for each complex, compute all the contacts at the interface in all the snapshots, and store them in pkl objects
+    - input : /Users/jmartin/DYN_INTERFACES/ARWEN_FILES/1FFW/snap.pdb
+    - calls python script Compute_all_contacts.py 
+    - output : Interfaces_1FFW.pkl
+---
+
+* contact_frequency.sh
+    - What it does: for each complex, compute the frequency of each residue-residue contacts along the MD trajectory
+    - input : Interfaces_1FFW.pkl
+    - calls : Compute_contacts_frequency.py
+    - output :  General_frequency_1FFW.txt
+
+
+* plot_frequency.sh
+    - What it does: for each complex, make an image of contact residue matrix
+    - input : General_frequency_1FFW.txt
+    - calls : plot_Global_iterface.R 
+    - output : Global_interface_1FFW.pdf
+
+---
+* contact_frequency_clusters.sh
+    - What it does: for each complex, compute the frequency of each residue-residue contacts in ech cluster
+    - input : Interfaces_1FFW.pkl  ../CLUSTERING/clusters_1FFW.txt
+    - calls : Compute_contacts_frequency_in_clusters.py 
+    - output : Cluster_frequency_1FFW_2.txt
+
+* plot_frequency_clusters.sh
+    - What it does: for each complex, make images of contact residue matrix for each cluster, and compute contact variability
+    - input : Cluster_frequency_1FFW_2.txt
+    - calls : plot_Cluster_iterface.R 
+    - output : Interface_1FFW_2_clusters.pdf session_1FFW_2.py (Chimera session with colors according to variability at interface)
+---
+* Compare_contact_var_with_rim_core.sh
+    - What it does: for each complex, compare contact variability and rim/core regions 
+    - input : Cluster_frequency_1FFW_2.txt, ../INITIAL_INTERFACES/description_interface_1FFW.txt
+    - calls : Compare_cluster_var_with_rimcore.R 
+    - output : average_var_by_contact_category_1FFW_2.txt Contact_var_by_category_1FFW_2.pdf
+
+
