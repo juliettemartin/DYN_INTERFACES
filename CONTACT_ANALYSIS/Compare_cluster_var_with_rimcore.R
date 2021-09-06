@@ -51,6 +51,33 @@ colnames(Interface_description)=c("side","index","category")
 Summed_var_right_residues=merge(Summed_var_right_residues,Interface_description[Interface_description$side=="B",c("index","category")],by="index")
 
 
+write.table(Summed_var_left_residues[order(Summed_var_left_residues$var,decreasing=TRUE),],file="Summed_var_left_residues.txt",quote=F)
+
+write.table(Summed_var_right_residues[order(Summed_var_right_residues$var,decreasing=TRUE),],file="Summed_var_right_residues.txt",quote=F)
+
+
+# Same with max instead of Summed 
+Max_var_left_residues=aggregate(var ~ l_residue, data = Contact_var, max)
+Max_var_left_residues$side="left"
+colnames(Max_var_left_residues)=c("index","var","side")
+colnames(Interface_description)=c("side","index","category")
+Max_var_left_residues=merge(Max_var_left_residues,Interface_description[Interface_description$side=="A",c("index","category")],by="index")
+
+
+Max_var_right_residues=aggregate(var ~ r_residue, data = Contact_var, max)
+Max_var_right_residues$side="right"
+colnames(Max_var_right_residues)=c("index","var","side")
+colnames(Interface_description)=c("side","index","category")
+Max_var_right_residues=merge(Max_var_right_residues,Interface_description[Interface_description$side=="B",c("index","category")],by="index")
+
+
+write.table(Max_var_left_residues[order(Max_var_left_residues$var,decreasing=TRUE),],file="Max_var_left_residues.txt",quote=F)
+
+write.table(Max_var_right_residues[order(Max_var_right_residues$var,decreasing=TRUE),],file="Max_var_right_residues.txt",quote=F)
+
+
+
+
 By_res_Contact_variability=rbind(Summed_var_left_residues,Summed_var_right_residues)
 
 ggplot(By_res_Contact_variability,aes(index,var,fill=category))+geom_col()+theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+facet_wrap(~side,ncol=1,scales = "free_x")
