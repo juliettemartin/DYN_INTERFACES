@@ -1,5 +1,7 @@
 # Calcul des contacts 
 
+if [ ! -e Nb_clusters.txt ]
+then
 # Store contacts in pkl objects
 source compute_contacts.sh
 
@@ -7,6 +9,8 @@ source compute_contacts.sh
 source contact_frequency.sh
 source plot_frequency.sh
 
+
+else
 # Calcul frequency in each cluster, and plot 
 source contact_frequency_clusters.sh
 source plot_frequency_clusters.sh
@@ -22,3 +26,4 @@ source plot_cluster_interfaces_and_core_labels.sh
 source contact_frequency.sh
 source plot_Contact_type.sh       
 
+fi
