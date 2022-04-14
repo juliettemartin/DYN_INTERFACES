@@ -22,10 +22,10 @@ nb=`echo $line| awk '{print $2}' `
     done
 
 
-    TIMES=`awk -v N=$nb '{if($1==N){print $0}}' $CLUSTER_FILES_PATH/centroids_$complex.Txt  | cut -d" " -f2-`
+    TIMES=`awk -v N=$nb '{if($1==N){print $0}}' $CLUSTER_FILES_PATH/centroids_$complex.txt  | cut -d" " -f2- `
 
     cluster=1
-    for T in $TIMES
+    for T in `echo $TIMES`
         do
         cat rec$T.pdb lig$T.pdb > Centroid_$complex$nb\_$cluster\_$T.pdb
         cluster=` expr $cluster + 1 `
@@ -34,5 +34,4 @@ nb=`echo $line| awk '{print $2}' `
         rm -f rec*.pdb lig*.pdb  sep_snap_*
     fi
 
-done < Nb_clusters.txt
-
+done < Nb_clusters.txt  # Nb_clusters.txt
