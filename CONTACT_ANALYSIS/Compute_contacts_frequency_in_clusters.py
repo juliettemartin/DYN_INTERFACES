@@ -57,7 +57,7 @@ R_Frequency_right={}
 Cluster_size={}
 
 for snapshot in Contacts:
-    label=Cluster_labels[snapshot][NbClus-2]
+    label=Cluster_labels[snapshot][NbClus-1]
     try:
         Cluster_size[label]+=1
     except:
