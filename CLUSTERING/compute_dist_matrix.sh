@@ -9,7 +9,7 @@ conda activate ccmap
 MD_PATH=/Users/jmartin/DYN_INTERFACES/ARWEN_FILES/
 
 
-for complex in 1FFW #1PVH 3SGB 1BRS 1EMV  1GCQ  2J0T 2OOB  1AK4 1AY7 #1FFW
+for complex in 1PVH #3SGB 1BRS 1EMV  1GCQ  2J0T 2OOB  1AK4 1AY7 #1FFW
 do
     if [ ! -e Jacquard_index_$complex.txt    ]
     then

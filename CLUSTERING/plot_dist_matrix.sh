@@ -1,4 +1,4 @@
-for complex in 1PVH 3SGB 1FFW 1BRS 1EMV  1GCQ  2J0T 2OOB  1AK4 1AY7
+for complex in 1PVH #3SGB 1FFW 1BRS 1EMV  1GCQ  2J0T 2OOB  1AK4 1AY7
 do
 echo Jacquard_index_$complex.txt > input.txt
 echo $complex >> input.txt
@@ -7,6 +7,7 @@ mv Rplots.pdf Sim_matrix_$complex.pdf
 mv hclust.pdf hclust_$complex.pdf
 mv Membership.pdf Membership_$complex.pdf
 mv Stability.pdf Stability_$complex.pdf
+mv Stability_var.pdf Stability_var_$complex.pdf
 
 mv clusters_wide.txt clusters_$complex.txt
 mv centroids.txt centroids_$complex.txt 
