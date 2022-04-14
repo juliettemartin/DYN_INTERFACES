@@ -1,13 +1,32 @@
 import ccmap
 import pickle
-import pyproteinsExt.structure.coordinates as PDB
+#import pyproteinsExt.structure.coordinates as PDB
+import pypstruct.coordinates as PDB
 parser = PDB.Parser()
+
+# need ccmap and pyproteinsext: 
+# conda create -n test_contacts python=3.7
+# pip install ccmap
+# pip install pypstruct
+
 
 CUTOFF=5.0
 
 
 with open("list_structures.temp") as file:
     lines=file.readlines()
+
+## example of list_structures.temp :
+#0 rec0.pdb lig0.pdb
+#1 rec1.pdb lig1.pdb
+#2 rec2.pdb lig2.pdb
+#3 rec3.pdb lig3.pdb
+#4 rec4.pdb lig4.pdb
+#5 rec5.pdb lig5.pdb
+#6 rec6.pdb lig6.pdb
+#7 rec7.pdb lig7.pdb
+#8 rec8.pdb lig8.pdb
+#9 rec9.pdb lig9.pdb
 
 
 pdbREC = parser.load(file=lines[0].split()[1])
