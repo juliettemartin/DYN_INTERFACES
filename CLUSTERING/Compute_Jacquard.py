@@ -1,6 +1,9 @@
 import ccmap
 
-import pyproteinsExt.structure.coordinates as PDB
+#import pyproteinsExt.structure.coordinates as PDB
+import pypstruct.coordinates as PDB
+
+
 parser = PDB.Parser()
 
 CUTOFF=5.0
