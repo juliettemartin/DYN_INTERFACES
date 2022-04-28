@@ -16,7 +16,7 @@ do
 
     split -a 3  -p GENERATED $MD_PATH/$complex/snap.pdb sep_snap_
     # under linux, use this one instead 
-    csplit -k $MD_PATH/$complex/snap.pdb  '/GENERATED/' '{*}' -f sep_snap_ -n 3 -z 
+    # csplit -k $MD_PATH/$complex/snap.pdb  '/GENERATED/' '{*}' -f sep_snap_ -n 3 -z 
     
     T=0
     for file in `ls sep_snap_*`
