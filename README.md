@@ -7,16 +7,20 @@ cd CONTACT_ANALYSIS
 
 source main.sh
 
+cd ..
+
 # Assess conservation of contacts over time 
 cd CONSERVATION_INITIAL_CONTACTS
 
 source main.sh
 
+cd ..
 # Perform Clustering based on interface contacts
 cd CLUSTERING
 
 source main.sh
 
+cd ..
 # Analyse contacts in each cluster 
 
 NB : for this, you need to decide the number of clusters and write it in a file with the following format:
@@ -29,9 +33,13 @@ cd CONTACT_ANALYSIS
 
 source main.sh
 
+cd ..
+
 cd CENTROID_V2
 
 source main.sh
+
+cd ..
 
 
 # Compute Interface properties
