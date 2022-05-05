@@ -1,16 +1,20 @@
 # DYN_INTERFACES
 Scripts to analyze the contacts at PPI during MD simulations.
+Perform the following steps in the indicated order.
 
 # extract contacts from MD snapshots
 cd CONTACT_ANALYSIS
+
 source main.sh
 
 # Assess conservation of contacts over time 
 cd CONSERVATION_INITIAL_CONTACTS
+
 source main.sh
 
 # Perform Clustering based on interface contacts
 cd CLUSTERING
+
 source main.sh
 
 # Analyse contacts in each cluster 
