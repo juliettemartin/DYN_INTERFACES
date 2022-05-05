@@ -6,7 +6,7 @@ source activate dyn_interfaces
 if [ ! -e Nb_clusters.txt ]
 then
 echo "######"
-echo "file Nb_clusters was NOT FOUND, run preliminary analyses will be run"
+echo "file Nb_clusters was NOT FOUND, preliminary analyses will be run"
 
 # Store contacts in pkl objects
 echo "######"
