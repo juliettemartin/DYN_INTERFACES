@@ -1,5 +1,17 @@
 # DYN_INTERFACES
 Scripts to analyze the contacts at PPI during MD simulations.
+
+The scripts rely on the ccmap and pypstruct packages, so you will need to install them in a local envt: 
+
+conda create -n dyn_interfaces python=3.8
+
+conda activate dyn_interfaces
+
+pip install ccmap
+
+pip install pypstruct
+
+
 Perform the following steps in the indicated order.
 
 # extract contacts from MD snapshots

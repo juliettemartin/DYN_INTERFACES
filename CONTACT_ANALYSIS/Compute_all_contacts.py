@@ -1,14 +1,7 @@
 import ccmap
 import pickle
-#import pyproteinsExt.structure.coordinates as PDB
 import pypstruct.coordinates as PDB
 parser = PDB.Parser()
-
-# need ccmap and pyproteinsext: 
-# conda create -n test_contacts python=3.7
-# pip install ccmap
-# pip install pypstruct
-
 
 CUTOFF=5.0
 
@@ -69,7 +62,7 @@ while i < len(lines):
 
 
 
-print(Interfaces)
+#print(Interfaces)
 
 with open('Interfaces.pkl','wb') as file:
     pickle.dump(Interfaces,file)

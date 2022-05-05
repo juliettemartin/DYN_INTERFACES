@@ -1,23 +1,33 @@
-# Calcul des contacts avec la librairie python de Guillaume 
-
-# conda create -n ccmap python=3.8
-# conda activate ccmap 
-# pip install ccmap
-# pip install pyproteinsExt
-
-conda activate ccmap 
+conda activate dyn_interfaces
 MD_PATH=/Users/jmartin/DYN_INTERFACES/ARWEN_FILES/
 
-
-for complex in 1PVH 1FFW 1PVH 3SGB 1BRS 1EMV  1GCQ  2J0T 2OOB  1AK4 1AY7
+while read complex
 do
+
+    echo "treating complex $complex"
+
     if [ ! -e Interfaces_$complex.pkl ]
     then
+    echo "splitting trajectory into separate files"
 
+    case "$(uname -s)" in
+    Darwin)
     split -a 3  -p GENERATED $MD_PATH/$complex/snap.pdb sep_snap_
-    # under linux, use this one instead 
-    # csplit -k $MD_PATH/$complex/snap.pdb  '/GENERATED/' '{*}' -f sep_snap_ -n 3 -z 
-    
+    ;;
+
+    Linux)
+    echo 'Linux'
+    csplit -k $MD_PATH/$complex/snap.pdb  '/GENERATED/' '{*}' -f sep_snap_ -n 3 -z 
+    ;;
+
+    *)
+    echo 'Other OS' 
+    ;;
+    esac
+
+    echo "..."
+
+    echo "reformatting separate files with chain Ids"
     T=0
     for file in `ls sep_snap_*`
     do
@@ -27,11 +37,25 @@ do
     echo $T rec$T.pdb lig$T.pdb
     T=`expr $T + 1 `
     done > list_structures.temp
+    echo " -> created a temporary list: "
+    wc -l list_structures.temp
+    echo "..."
 
+    echo "running python file "
     python Compute_all_contacts.py 
 
-    mv Interfaces.pkl Interfaces_$complex.pkl	
-    rm -f rec*.pdb lig*.pdb  sep_snap_*
+    if [ ! -e Interfaces.pkl ]
+    then    
+        echo "Warning: failed to produce Interfaces.pkl"
+    else
+        mv Interfaces.pkl Interfaces_$complex.pkl	
     fi
 
-done
+    echo "remove temporary files"
+    rm -f rec*.pdb lig*.pdb  sep_snap_*
+
+    else
+    echo "file Interfaces_$complex.pkl  already exists, no computation run"
+
+    fi
+done < list.txt 
