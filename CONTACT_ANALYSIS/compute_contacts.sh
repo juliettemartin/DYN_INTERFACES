@@ -1,4 +1,3 @@
-conda activate dyn_interfaces
 MD_PATH=/Users/jmartin/DYN_INTERFACES/ARWEN_FILES/
 
 while read complex

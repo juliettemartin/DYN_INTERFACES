@@ -1,3 +1,6 @@
+# activate envt
+source activate dyn_interfaces 
+
 # Calcul des contacts 
 
 if [ ! -e Nb_clusters.txt ]
