@@ -1,20 +1,32 @@
-# Calcul des contacts avec la librairie python de Guillaume 
-
-# conda create -n ccmap python=3.8
-# conda activate ccmap 
-# pip install ccmap
-# pip install pyproteinsExt
-
-conda activate ccmap 
 MD_PATH=/Users/jmartin/DYN_INTERFACES/ARWEN_FILES/
 
-
-for complex in 1PVH #3SGB 1BRS 1EMV  1GCQ  2J0T 2OOB  1AK4 1AY7 #1FFW
+while read complex 
 do
     if [ ! -e Jacquard_index_$complex.txt    ]
     then
 
+    echo "treating complex $complex"
+
+       echo "splitting trajectory into separate files"
+
+    case "$(uname -s)" in
+    Darwin)
     split -a 3  -p GENERATED $MD_PATH/$complex/snap.pdb sep_snap_
+    ;;
+
+    Linux)
+    echo 'Linux'
+    csplit -k $MD_PATH/$complex/snap.pdb  '/GENERATED/' '{*}' -f sep_snap_ -n 3 -z 
+    ;;
+
+    *)
+    echo 'Other OS' 
+    ;;
+    esac
+
+    echo "..."
+
+    echo "reformatting separate files with chain Ids"
     T=0
     for file in `ls sep_snap_*`
     do
@@ -24,11 +36,30 @@ do
     echo $T rec$T.pdb lig$T.pdb
     T=`expr $T + 1 `
     done > list_structures.temp
+    echo " -> created a temporary list: "
+    wc -l list_structures.temp
+    echo "..."
+
+    echo "running python file Compute_Jacquard.py "
 
     echo Time1 Time2 NB_contacts1 NB_contacts2 NB_common  > Jacquard_index_$complex.txt 
     python Compute_Jacquard.py >> Jacquard_index_$complex.txt   
 
-    rm -f rec*.pdb lig*.pdb  sep_snap_*
+    if [ `wc -l  Jacquard_index_$complex.txt | awk '{print $1}'` -eq 1 ] 
+    then
+    rm -f Jacquard_index_$complex.txt
     fi
 
-done
+    if [ ! -e Jacquard_index_$complex.txt  ]
+    then    
+        echo "Warning: failed to produce Jacquard_index_$complex.txt "
+    fi
+
+    echo "remove temporary files"
+    rm -f rec*.pdb lig*.pdb  sep_snap_*
+
+    else
+    echo "file Jacquard_index_$complex.txt  already exists, no computation run"
+    fi
+
+done <list.txt

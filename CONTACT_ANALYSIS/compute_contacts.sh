@@ -55,6 +55,6 @@ do
 
     else
     echo "file Interfaces_$complex.pkl  already exists, no computation run"
-
     fi
+    
 done < list.txt 

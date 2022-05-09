@@ -1,8 +1,14 @@
+# activate envt 
+source activate dyn_interfaces
 
+echo "######"
+echo "running compute_dist_matrix.sh"
 source compute_dist_matrix.sh
-source plot_dist_matrix.sh
 
-#source Show_centroids_projection.sh 
-#source Show_centroids_projection_start150.sh
+echo "######"
+echo "running hclust.sh"
+source run_hclust.sh
 
+echo "######"
+echo "running Show_centroids_projectionV2.sh"
 source Show_centroids_projectionV2.sh
