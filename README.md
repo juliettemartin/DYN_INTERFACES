@@ -19,46 +19,50 @@ cd CONTACT_ANALYSIS
 
 source main.sh
 
-cd ..
+cd -
 
 # Assess conservation of contacts over time 
 cd CONSERVATION_INITIAL_CONTACTS
 
 source main.sh
 
-cd ..
+cd -
+
 # Perform Clustering based on interface contacts
 cd CLUSTERING
 
 source main.sh
 
-cd ..
-# Analyse contacts in each cluster 
 
-NB : for this, you need to decide the number of clusters and write it in a file with the following format:
+NB : to go further, you need to decide the number of clusters and write it in a file with the following format:
 
 PDB_ID NB_CLUSTER
 
-And then 
+# Pick cluster centroids 
+cd CENTROIDS
 
-cd CONTACT_ANALYSIS
+source main.sh
+
+cd ../..
+
+# Analyse contacts in each cluster 
+
+cd CLUSTER_CONTACT_ANALYSIS
 
 source main.sh
 
 cd ..
 
-cd CENTROID_V2
 
-source main.sh
 
-cd ..
 
+# TO DO :
 
 # Compute Interface properties
-cd DELTA_ASA
+# cd DELTA_ASA
 
-source main.sh 
+# source main.sh 
 
-cd GAP_INDEX
+# cd GAP_INDEX
 
-source main.sh
+# source main.sh

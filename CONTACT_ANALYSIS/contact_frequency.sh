@@ -23,6 +23,8 @@ do
         if [ ! -e Contact_type_$complex\_2groups.txt ]
         then
         echo "failed to create Contact_type_$complex\_2groups.txt"
+        else 
+        echo "File produced: Contact_type_$complex\_2groups.txt"
         fi
     else
     echo "Contact_type_$complex\_2groups.txt already exists, no computation done"
@@ -35,6 +37,8 @@ do
          if [ ! -e Contact_type_$complex\_3groups.txt ]
         then
         echo "failed to create Contact_type_$complex\_3groups.txt"
+        else
+        echo "File produced: Contact_type_$complex\_3groups.txt"
         fi   
     else
     echo "Contact_type_$complex\_3groups.txt  already exists, no computation done"
