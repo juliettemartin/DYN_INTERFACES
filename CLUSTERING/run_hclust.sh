@@ -2,13 +2,13 @@ while read complex
 do
 
 echo "treating complex"
-if [ ! -e Jacquard_index_$complex.txt ]
+if [ ! -e Jaccard_index_$complex.txt ]
 then
-echo "file Jacquard_index_$complex.txt not found, interrupting"
+echo "file Jaccard_index_$complex.txt not found, interrupting"
 else if [ ]
 
 
-echo Jacquard_index_$complex.txt > input.txt
+echo Jaccard_index_$complex.txt > input.txt
 echo $complex >> input.txt
 R CMD BATCH run_hclust.R
 
