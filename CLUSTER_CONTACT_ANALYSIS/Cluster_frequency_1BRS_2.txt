@@ -1,0 +1,349 @@
+contact_frequency,1,LYS 26 ,ASP 39 ,1.0
+contact_frequency,1,LYS 26 ,TRP 38 ,0.6115702479338843
+contact_frequency,1,LYS 26 ,THR 42 ,1.0
+contact_frequency,1,SER 27 ,GLU 80 ,0.2644628099173554
+contact_frequency,1,TRP 34 ,THR 42 ,0.9173553719008265
+contact_frequency,1,TRP 34 ,GLY 43 ,0.9834710743801653
+contact_frequency,1,ALA 36 ,GLY 43 ,0.9917355371900827
+contact_frequency,1,ALA 36 ,TRP 44 ,1.0
+contact_frequency,1,ALA 36 ,VAL 45 ,0.4462809917355372
+contact_frequency,1,SER 37 ,TRP 44 ,0.9752066115702479
+contact_frequency,1,SER 37 ,GLU 46 ,1.0
+contact_frequency,1,PHE 55 ,ASH 35 ,1.0
+contact_frequency,1,SER 56 ,TRP 38 ,0.8347107438016529
+contact_frequency,1,SER 56 ,GLU 76 ,0.2727272727272727
+contact_frequency,1,SER 56 ,ASH 35 ,0.9504132231404959
+contact_frequency,1,ASN 57 ,ASH 35 ,1.0
+contact_frequency,1,ARG 58 ,ASH 35 ,1.0
+contact_frequency,1,ARG 58 ,LEU 34 ,1.0
+contact_frequency,1,ARG 58 ,TRP 38 ,0.9917355371900827
+contact_frequency,1,ARG 58 ,GLU 76 ,1.0
+contact_frequency,1,ARG 58 ,GLN 72 ,0.8347107438016529
+contact_frequency,1,ARG 58 ,VAL 73 ,1.0
+contact_frequency,1,GLU 59 ,ASH 35 ,1.0
+contact_frequency,1,GLU 59 ,ASN 33 ,0.9917355371900827
+contact_frequency,1,GLU 59 ,LEU 34 ,0.9421487603305785
+contact_frequency,1,GLH 72 ,ASP 39 ,0.9256198347107438
+contact_frequency,1,PHE 81 ,TRP 44 ,0.9752066115702479
+contact_frequency,1,PHE 81 ,TYR 29 ,0.9669421487603306
+contact_frequency,1,ARG 82 ,ASP 39 ,1.0
+contact_frequency,1,ARG 82 ,GLY 43 ,0.9834710743801653
+contact_frequency,1,ARG 82 ,THR 42 ,0.743801652892562
+contact_frequency,1,ARG 82 ,TYR 29 ,0.9917355371900827
+contact_frequency,1,ARG 82 ,TRP 44 ,0.8099173553719008
+contact_frequency,1,ASN 83 ,TYR 29 ,0.9752066115702479
+contact_frequency,1,SER 84 ,TYR 29 ,0.9917355371900827
+contact_frequency,1,ARG 86 ,ASP 39 ,1.0
+contact_frequency,1,ASP 100 ,GLY 31 ,0.9752066115702479
+contact_frequency,1,HID 101 ,TYR 29 ,0.9752066115702479
+contact_frequency,1,HID 101 ,ALA 36 ,1.0
+contact_frequency,1,HID 101 ,ASP 39 ,0.9090909090909091
+contact_frequency,1,HID 101 ,ASN 33 ,1.0
+contact_frequency,1,HID 101 ,TYR 30 ,0.9752066115702479
+contact_frequency,1,HID 101 ,CYS 40 ,0.8016528925619835
+contact_frequency,1,HID 101 ,PRO 27 ,0.2892561983471074
+contact_frequency,1,HID 101 ,GLY 31 ,1.0
+contact_frequency,1,TYR 102 ,ASP 39 ,1.0
+contact_frequency,1,TYR 102 ,ASN 33 ,1.0
+contact_frequency,1,TYR 102 ,ASH 35 ,1.0
+contact_frequency,1,TYR 102 ,ALA 36 ,1.0
+contact_frequency,1,GLN 103 ,ASN 33 ,1.0
+contact_frequency,1,GLN 103 ,GLY 31 ,1.0
+contact_frequency,1,PHE 105 ,ASH 35 ,0.3305785123966942
+contact_frequency,1,LYS 26 ,GLY 43 ,0.6198347107438017
+contact_frequency,1,ALA 36 ,THR 42 ,0.2727272727272727
+contact_frequency,1,SER 37 ,VAL 45 ,0.8016528925619835
+contact_frequency,1,SER 37 ,TYR 47 ,0.1322314049586777
+contact_frequency,1,ILE 54 ,TRP 38 ,0.5454545454545454
+contact_frequency,1,ASP 100 ,ASN 33 ,0.2809917355371901
+contact_frequency,1,GLN 103 ,TYR 30 ,0.47107438016528924
+contact_frequency,1,LYS 38 ,GLU 46 ,0.2727272727272727
+contact_frequency,1,GLU 59 ,ALA 36 ,0.2809917355371901
+contact_frequency,1,SER 37 ,GLY 43 ,0.12396694214876033
+contact_frequency,1,PHE 81 ,GLY 43 ,0.0743801652892562
+contact_frequency,1,ASP 100 ,TYR 29 ,0.12396694214876033
+contact_frequency,1,GLN 30 ,GLU 80 ,0.21487603305785125
+contact_frequency,1,VAL 35 ,GLU 46 ,0.23140495867768596
+contact_frequency,1,ASN 83 ,ASP 39 ,0.09090909090909091
+contact_frequency,1,GLN 103 ,GLU 32 ,0.48760330578512395
+contact_frequency,1,GLN 30 ,GLY 81 ,0.01652892561983471
+contact_frequency,1,ALA 36 ,GLU 46 ,0.024793388429752067
+contact_frequency,1,PHE 55 ,TRP 38 ,0.049586776859504134
+contact_frequency,1,ASP 74 ,ASP 39 ,0.19008264462809918
+contact_frequency,1,ARG 82 ,CYS 40 ,0.09090909090909091
+contact_frequency,1,GLN 30 ,THR 42 ,0.08264462809917356
+contact_frequency,1,GLY 60 ,ASH 35 ,0.03305785123966942
+contact_frequency,1,SER 84 ,TYR 30 ,0.01652892561983471
+contact_frequency,1,GLU 59 ,HID 17 ,0.05785123966942149
+contact_frequency,1,TRP 34 ,TRP 44 ,0.03305785123966942
+contact_frequency,1,GLH 72 ,TRP 38 ,0.01652892561983471
+contact_frequency,1,ASN 83 ,TRP 44 ,0.04132231404958678
+contact_frequency,1,ARG 86 ,TRP 44 ,0.04132231404958678
+contact_frequency,1,HID 101 ,TRP 44 ,0.05785123966942149
+contact_frequency,1,ARG 58 ,SER 69 ,0.0743801652892562
+contact_frequency,1,GLN 30 ,TYR 47 ,0.01652892561983471
+contact_frequency,1,VAL 35 ,VAL 45 ,0.008264462809917356
+contact_frequency,1,LYS 61 ,ASN 33 ,0.04132231404958678
+contact_frequency,1,ILE 54 ,GLU 80 ,0.03305785123966942
+contact_frequency,1,LYS 61 ,ASH 35 ,0.06611570247933884
+contact_frequency,1,SER 27 ,THR 42 ,0.008264462809917356
+contact_frequency,1,GLN 30 ,ALA 82 ,0.008264462809917356
+contact_frequency,1,ARG 82 ,PRO 27 ,0.01652892561983471
+contact_frequency,1,GLN 103 ,TYR 29 ,0.024793388429752067
+contact_frequency,1,ASP 53 ,THR 42 ,0.008264462809917356
+contact_frequency,1,ASP 53 ,ASP 39 ,0.19834710743801653
+contact_frequency,1,ASP 100 ,TYR 30 ,0.008264462809917356
+contact_frequency,1,LYS 26 ,GLU 80 ,0.008264462809917356
+contact_frequency,1,GLU 59 ,ILE 13 ,0.008264462809917356
+contact_frequency,1,ASP 53 ,TRP 38 ,0.008264462809917356
+l_frequency,1,LYS 26 ,3.239669421487603
+l_frequency,1,SER 27 ,0.2727272727272727
+l_frequency,1,TRP 34 ,1.9338842975206612
+l_frequency,1,ALA 36 ,2.7355371900826446
+l_frequency,1,SER 37 ,3.0330578512396693
+l_frequency,1,PHE 55 ,1.0495867768595042
+l_frequency,1,SER 56 ,2.0578512396694215
+l_frequency,1,ASN 57 ,1.0
+l_frequency,1,ARG 58 ,5.900826446280992
+l_frequency,1,GLU 59 ,3.28099173553719
+l_frequency,1,GLH 72 ,0.9421487603305785
+l_frequency,1,PHE 81 ,2.0165289256198347
+l_frequency,1,ARG 82 ,4.636363636363637
+l_frequency,1,ASN 83 ,1.1074380165289257
+l_frequency,1,SER 84 ,1.0082644628099173
+l_frequency,1,ARG 86 ,1.0413223140495869
+l_frequency,1,ASP 100 ,1.3884297520661157
+l_frequency,1,HID 101 ,7.008264462809917
+l_frequency,1,TYR 102 ,4.0
+l_frequency,1,GLN 103 ,2.9834710743801653
+l_frequency,1,PHE 105 ,0.3305785123966942
+l_frequency,1,ILE 54 ,0.5785123966942148
+l_frequency,1,LYS 38 ,0.2727272727272727
+l_frequency,1,GLN 30 ,0.33884297520661155
+l_frequency,1,VAL 35 ,0.2396694214876033
+l_frequency,1,ASP 74 ,0.19008264462809918
+l_frequency,1,GLY 60 ,0.03305785123966942
+l_frequency,1,LYS 61 ,0.10743801652892562
+l_frequency,1,ASP 53 ,0.21487603305785125
+r_frequency,1,ASP 39 ,6.31404958677686
+r_frequency,1,TRP 38 ,3.0578512396694215
+r_frequency,1,THR 42 ,3.0330578512396693
+r_frequency,1,GLU 80 ,0.5206611570247934
+r_frequency,1,GLY 43 ,3.7768595041322315
+r_frequency,1,TRP 44 ,3.9338842975206614
+r_frequency,1,VAL 45 ,1.256198347107438
+r_frequency,1,GLU 46 ,1.5289256198347108
+r_frequency,1,ASH 35 ,6.380165289256198
+r_frequency,1,GLU 76 ,1.2727272727272727
+r_frequency,1,LEU 34 ,1.9421487603305785
+r_frequency,1,GLN 72 ,0.8347107438016529
+r_frequency,1,VAL 73 ,1.0
+r_frequency,1,ASN 33 ,4.31404958677686
+r_frequency,1,TYR 29 ,5.049586776859504
+r_frequency,1,GLY 31 ,2.975206611570248
+r_frequency,1,ALA 36 ,2.28099173553719
+r_frequency,1,TYR 30 ,1.4710743801652892
+r_frequency,1,CYS 40 ,0.8925619834710744
+r_frequency,1,PRO 27 ,0.30578512396694213
+r_frequency,1,TYR 47 ,0.1487603305785124
+r_frequency,1,GLU 32 ,0.48760330578512395
+r_frequency,1,GLY 81 ,0.01652892561983471
+r_frequency,1,HID 17 ,0.05785123966942149
+r_frequency,1,SER 69 ,0.0743801652892562
+r_frequency,1,ALA 82 ,0.008264462809917356
+r_frequency,1,ILE 13 ,0.008264462809917356
+contact_frequency,2,LYS 26 ,THR 42 ,0.9777777777777777
+contact_frequency,2,LYS 26 ,ASP 39 ,0.7611111111111111
+contact_frequency,2,LYS 26 ,GLY 43 ,0.9055555555555556
+contact_frequency,2,TRP 34 ,GLY 43 ,0.7333333333333333
+contact_frequency,2,ALA 36 ,GLY 43 ,1.0
+contact_frequency,2,ALA 36 ,TRP 44 ,1.0
+contact_frequency,2,SER 37 ,GLU 46 ,0.42777777777777776
+contact_frequency,2,SER 37 ,TRP 44 ,1.0
+contact_frequency,2,ILE 54 ,TRP 38 ,0.12222222222222222
+contact_frequency,2,PHE 55 ,ASH 35 ,1.0
+contact_frequency,2,SER 56 ,ASH 35 ,0.9388888888888889
+contact_frequency,2,SER 56 ,TRP 38 ,0.9666666666666667
+contact_frequency,2,ASN 57 ,ASH 35 ,0.9888888888888889
+contact_frequency,2,ARG 58 ,ASH 35 ,1.0
+contact_frequency,2,ARG 58 ,LEU 34 ,0.9833333333333333
+contact_frequency,2,ARG 58 ,VAL 73 ,1.0
+contact_frequency,2,ARG 58 ,TRP 38 ,0.9
+contact_frequency,2,ARG 58 ,GLU 76 ,1.0
+contact_frequency,2,ARG 58 ,GLN 72 ,0.8888888888888888
+contact_frequency,2,GLU 59 ,LEU 34 ,0.9944444444444445
+contact_frequency,2,GLU 59 ,ASH 35 ,1.0
+contact_frequency,2,GLU 59 ,ASN 33 ,0.9722222222222222
+contact_frequency,2,GLH 72 ,ASP 39 ,0.8888888888888888
+contact_frequency,2,PHE 81 ,TYR 29 ,0.6388888888888888
+contact_frequency,2,PHE 81 ,TRP 44 ,0.9166666666666666
+contact_frequency,2,ARG 82 ,ASP 39 ,0.9555555555555556
+contact_frequency,2,ARG 82 ,TYR 29 ,1.0
+contact_frequency,2,ARG 82 ,GLY 43 ,0.08333333333333333
+contact_frequency,2,ARG 82 ,TRP 44 ,0.011111111111111112
+contact_frequency,2,ASN 83 ,TYR 29 ,0.8888888888888888
+contact_frequency,2,ASN 83 ,TRP 44 ,0.005555555555555556
+contact_frequency,2,SER 84 ,TYR 29 ,0.9555555555555556
+contact_frequency,2,ARG 86 ,ASP 39 ,0.35555555555555557
+contact_frequency,2,ASP 100 ,GLY 31 ,0.9833333333333333
+contact_frequency,2,HID 101 ,GLY 31 ,1.0
+contact_frequency,2,HID 101 ,ASN 33 ,1.0
+contact_frequency,2,HID 101 ,ALA 36 ,0.9944444444444445
+contact_frequency,2,HID 101 ,TYR 30 ,0.8
+contact_frequency,2,HID 101 ,TYR 29 ,0.9944444444444445
+contact_frequency,2,TYR 102 ,ASH 35 ,1.0
+contact_frequency,2,TYR 102 ,ASN 33 ,1.0
+contact_frequency,2,TYR 102 ,ASP 39 ,0.9944444444444445
+contact_frequency,2,TYR 102 ,ALA 36 ,1.0
+contact_frequency,2,GLN 103 ,ASN 33 ,1.0
+contact_frequency,2,GLN 103 ,GLY 31 ,1.0
+contact_frequency,2,ASP 53 ,ASP 39 ,0.6166666666666667
+contact_frequency,2,LYS 61 ,ASH 35 ,0.1388888888888889
+contact_frequency,2,ASP 100 ,TYR 29 ,0.07777777777777778
+contact_frequency,2,HID 101 ,ASP 39 ,0.9166666666666666
+contact_frequency,2,HID 101 ,CYS 40 ,0.1
+contact_frequency,2,PHE 105 ,ASH 35 ,0.1111111111111111
+contact_frequency,2,ALA 36 ,TYR 29 ,0.4111111111111111
+contact_frequency,2,SER 37 ,GLY 43 ,0.06111111111111111
+contact_frequency,2,ASP 100 ,ASN 33 ,0.6222222222222222
+contact_frequency,2,GLN 103 ,GLU 32 ,0.75
+contact_frequency,2,GLU 59 ,ALA 36 ,0.18888888888888888
+contact_frequency,2,GLN 103 ,TYR 30 ,0.15555555555555556
+contact_frequency,2,GLY 60 ,ASH 35 ,0.09444444444444444
+contact_frequency,2,LYS 26 ,TRP 38 ,0.12222222222222222
+contact_frequency,2,VAL 35 ,GLY 43 ,0.022222222222222223
+contact_frequency,2,GLN 30 ,GLY 43 ,0.2388888888888889
+contact_frequency,2,VAL 35 ,GLU 46 ,0.25555555555555554
+contact_frequency,2,ARG 86 ,TYR 29 ,0.5833333333333334
+contact_frequency,2,GLN 30 ,THR 42 ,0.25
+contact_frequency,2,GLN 30 ,TRP 44 ,0.016666666666666666
+contact_frequency,2,SER 56 ,LEU 34 ,0.03333333333333333
+contact_frequency,2,PHE 81 ,GLU 28 ,0.005555555555555556
+contact_frequency,2,ARG 58 ,SER 69 ,0.08888888888888889
+contact_frequency,2,SER 84 ,TYR 30 ,0.022222222222222223
+contact_frequency,2,SER 84 ,GLU 28 ,0.12777777777777777
+contact_frequency,2,GLU 59 ,HID 17 ,0.027777777777777776
+contact_frequency,2,GLN 103 ,TYR 29 ,0.011111111111111112
+contact_frequency,2,SER 56 ,GLU 76 ,0.044444444444444446
+contact_frequency,2,LYS 61 ,ASN 33 ,0.03333333333333333
+contact_frequency,2,LYS 38 ,GLU 46 ,0.022222222222222223
+contact_frequency,2,HID 101 ,ASH 35 ,0.044444444444444446
+contact_frequency,2,ASP 100 ,TYR 30 ,0.011111111111111112
+contact_frequency,2,LYS 38 ,TRP 44 ,0.016666666666666666
+contact_frequency,2,GLN 30 ,GLU 46 ,0.011111111111111112
+contact_frequency,2,ALA 36 ,GLU 46 ,0.005555555555555556
+contact_frequency,2,ILE 54 ,ASP 39 ,0.005555555555555556
+contact_frequency,2,TRP 34 ,THR 42 ,0.016666666666666666
+contact_frequency,2,GLU 59 ,SER 69 ,0.005555555555555556
+contact_frequency,2,VAL 35 ,TRP 44 ,0.005555555555555556
+contact_frequency,2,HID 101 ,PRO 27 ,0.005555555555555556
+contact_frequency,2,ASP 53 ,THR 42 ,0.005555555555555556
+contact_frequency,2,SER 27 ,GLU 80 ,0.005555555555555556
+l_frequency,2,LYS 26 ,2.7666666666666666
+l_frequency,2,TRP 34 ,0.75
+l_frequency,2,ALA 36 ,2.4166666666666665
+l_frequency,2,SER 37 ,1.488888888888889
+l_frequency,2,ILE 54 ,0.12777777777777777
+l_frequency,2,PHE 55 ,1.0
+l_frequency,2,SER 56 ,1.9833333333333334
+l_frequency,2,ASN 57 ,0.9888888888888889
+l_frequency,2,ARG 58 ,5.861111111111111
+l_frequency,2,GLU 59 ,3.188888888888889
+l_frequency,2,GLH 72 ,0.8888888888888888
+l_frequency,2,PHE 81 ,1.5611111111111111
+l_frequency,2,ARG 82 ,2.05
+l_frequency,2,ASN 83 ,0.8944444444444445
+l_frequency,2,SER 84 ,1.1055555555555556
+l_frequency,2,ARG 86 ,0.9388888888888889
+l_frequency,2,ASP 100 ,1.6944444444444444
+l_frequency,2,HID 101 ,5.855555555555555
+l_frequency,2,TYR 102 ,3.9944444444444445
+l_frequency,2,GLN 103 ,2.9166666666666665
+l_frequency,2,ASP 53 ,0.6222222222222222
+l_frequency,2,LYS 61 ,0.17222222222222222
+l_frequency,2,PHE 105 ,0.1111111111111111
+l_frequency,2,GLY 60 ,0.09444444444444444
+l_frequency,2,VAL 35 ,0.2833333333333333
+l_frequency,2,GLN 30 ,0.5166666666666667
+l_frequency,2,LYS 38 ,0.03888888888888889
+l_frequency,2,SER 27 ,0.005555555555555556
+r_frequency,2,THR 42 ,1.25
+r_frequency,2,ASP 39 ,5.4944444444444445
+r_frequency,2,GLY 43 ,3.0444444444444443
+r_frequency,2,TRP 44 ,2.9722222222222223
+r_frequency,2,GLU 46 ,0.7222222222222222
+r_frequency,2,TRP 38 ,2.111111111111111
+r_frequency,2,ASH 35 ,6.316666666666666
+r_frequency,2,LEU 34 ,2.011111111111111
+r_frequency,2,VAL 73 ,1.0
+r_frequency,2,GLU 76 ,1.0444444444444445
+r_frequency,2,GLN 72 ,0.8888888888888888
+r_frequency,2,ASN 33 ,4.627777777777778
+r_frequency,2,TYR 29 ,5.561111111111111
+r_frequency,2,GLY 31 ,2.9833333333333334
+r_frequency,2,ALA 36 ,2.183333333333333
+r_frequency,2,TYR 30 ,0.9888888888888889
+r_frequency,2,CYS 40 ,0.1
+r_frequency,2,GLU 32 ,0.75
+r_frequency,2,GLU 28 ,0.13333333333333333
+r_frequency,2,SER 69 ,0.09444444444444444
+r_frequency,2,HID 17 ,0.027777777777777776
+r_frequency,2,PRO 27 ,0.005555555555555556
+r_frequency,2,GLU 80 ,0.005555555555555556
+l_key,LYS 26 
+l_key,SER 27 
+l_key,GLN 30 
+l_key,TRP 34 
+l_key,VAL 35 
+l_key,ALA 36 
+l_key,SER 37 
+l_key,LYS 38 
+l_key,ASP 53 
+l_key,ILE 54 
+l_key,PHE 55 
+l_key,SER 56 
+l_key,ASN 57 
+l_key,ARG 58 
+l_key,GLU 59 
+l_key,GLY 60 
+l_key,LYS 61 
+l_key,GLH 72 
+l_key,ASP 74 
+l_key,PHE 81 
+l_key,ARG 82 
+l_key,ASN 83 
+l_key,SER 84 
+l_key,ARG 86 
+l_key,ASP 100 
+l_key,HID 101 
+l_key,TYR 102 
+l_key,GLN 103 
+l_key,PHE 105 
+r_key,ILE 13 
+r_key,HID 17 
+r_key,PRO 27 
+r_key,GLU 28 
+r_key,TYR 29 
+r_key,TYR 30 
+r_key,GLY 31 
+r_key,GLU 32 
+r_key,ASN 33 
+r_key,LEU 34 
+r_key,ASH 35 
+r_key,ALA 36 
+r_key,TRP 38 
+r_key,ASP 39 
+r_key,CYS 40 
+r_key,THR 42 
+r_key,GLY 43 
+r_key,TRP 44 
+r_key,VAL 45 
+r_key,GLU 46 
+r_key,TYR 47 
+r_key,SER 69 
+r_key,GLN 72 
+r_key,VAL 73 
+r_key,GLU 76 
+r_key,GLU 80 
+r_key,GLY 81 
+r_key,ALA 82 
