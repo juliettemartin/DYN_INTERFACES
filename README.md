@@ -38,6 +38,11 @@ NB : to go further, you need to decide the number of clusters and write it in a 
 
 PDB_ID NB_CLUSTER
 
+
+And then:
+
+source main2.sh
+
 # Pick cluster centroids 
 cd CENTROIDS
 

@@ -8,7 +8,7 @@ else
 
 # Compute frequency in each cluster, and plot 
 echo "######"
-echo "running ccontact_frequency_clusters.sh"
+echo "running contact_frequency_clusters.sh"
 source contact_frequency_clusters.sh
 
 echo "######"

@@ -1,7 +1,7 @@
 while read complex
 do
 
-echo "treating complex"
+echo "treating complex $complex"
 if [ ! -e Jaccard_index_$complex.txt ]
 then
 echo "file Jaccard_index_$complex.txt not found, interrupting"
@@ -10,6 +10,8 @@ else if [ ]
 
 echo Jaccard_index_$complex.txt > input.txt
 echo $complex >> input.txt
+
+echo "running R script run_hclust.R"
 R CMD BATCH run_hclust.R
 
 if [ -e centroids.txt ]

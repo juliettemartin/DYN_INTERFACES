@@ -15,7 +15,7 @@ echo "showing centroids for complex $complex and $nb clusters"
 
 grep ^$nb centroids_$complex.txt | cut -d" " -f2- > centroids-v2.temp
 
-echo Jacquard_index_$complex.txt > input.txt
+echo Jaccard_index_$complex.txt > input.txt
 echo $complex >> input.txt
 echo centroids-v2.temp >> input.txt 
 
