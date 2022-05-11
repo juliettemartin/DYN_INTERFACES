@@ -1,17 +1,34 @@
 # centroid selection according to the Jaccard similarity matrix in CLUSTERING
-CLUSTER_FILES_PATH=~/DYN_INTERFACES/2021_06_04_INTERFACE_CONTACTS/CLUSTERING/
+CLUSTER_FILES_PATH=../
 MD_PATH=/Users/jmartin/DYN_INTERFACES/ARWEN_FILES/
 
 while read line
 do
 complex=`echo $line| awk '{print $1}' `
 nb=`echo $line| awk '{print $2}' `
+echo "extraction of centroids for complex $complex and $nb clusters"
 
     if [ ! -e Cluster_centroid_$complex\_$nb.txt ]
     then
 
+    echo "splitting the snapshots"
     # all the snapshots 
+    case "$(uname -s)" in
+    Darwin)
     split -a 3  -p GENERATED $MD_PATH/$complex/snap.pdb sep_snap_
+    ;;
+
+    Linux)
+    echo 'Linux'
+    csplit -k $MD_PATH/$complex/snap.pdb  '/GENERATED/' '{*}' -f sep_snap_ -n 3 -z 
+    ;;
+
+    *)
+    echo 'Other OS' 
+    ;;
+    esac
+
+    echo "reformatting for chain ids"
     T=0
     for file in `ls sep_snap_*`
     do
@@ -24,6 +41,7 @@ nb=`echo $line| awk '{print $2}' `
 
     TIMES=`awk -v N=$nb '{if($1==N){print $0}}' $CLUSTER_FILES_PATH/centroids_$complex.txt  | cut -d" " -f2- `
 
+    echo "writing centroid PDB"
     cluster=1
     for T in `echo $TIMES`
         do
