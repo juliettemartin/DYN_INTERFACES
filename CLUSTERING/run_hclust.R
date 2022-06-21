@@ -31,7 +31,7 @@ data_mix=data.frame(N=numeric(),average=numeric(),min_size=numeric(),max_size=nu
 
 write("#Nb_clusters centroid Ids",file="centroids.txt",append=FALSE)
 
-N_max=50
+N_max=5
 
 for (N in c(1:N_max))
 {
