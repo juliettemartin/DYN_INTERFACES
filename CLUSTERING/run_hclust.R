@@ -17,6 +17,11 @@ X_sym=rbind(X_sym,data.frame(Time1=Time_range,Time2=Time_range,NB_contacts1=NA,N
 
 ggplot(X_sym,aes(Time1,Time2,fill=Jaccard))+geom_tile()+scale_fill_gradient(low="yellow",high="darkblue")+theme_bw()+xlab("Time (ns)")+ylab("Time (ns)")
 
+# If you have a lot of data, the image can become too large to be plotted.
+# Use this line to plot one 10th of the data 
+# ggplot(X_sym[X_sym$Time1%%10==0 & X_sym$Time2%%10==0,] ,aes(Time1,Time2,fill=Jaccard))+geom_tile()+scale_fill_gradient(low="yellow",high="darkblue")+theme_bw()+xlab("Time (ns)")+ylab("Time (ns)")
+
+
 D=tapply(X_sym[,"Jaccard"],X_sym[,c("Time1","Time2")],c)
 # add 1 in the last case
 diag(D)=1
